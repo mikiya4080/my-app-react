@@ -30,6 +30,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        {/* `basename` を考慮した `<base>` タグを追加 */}
+        <base href="/my-app-react/" />
       </head>
       <body>
         {children}

@@ -2,6 +2,7 @@
   "name": "my-remix-app",
   "private": true,
   "sideEffects": false,
+  "homepage": "https://mikiya4080.github.io/my-app-react",
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
