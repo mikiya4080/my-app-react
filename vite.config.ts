@@ -9,7 +9,7 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
-  base: "my-app-react",
+  base: "/my-app-react/",
   plugins: [
     remix({
       ssr: false,
